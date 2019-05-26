@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<div>
+			<label for="firstName">First name </label>
+			<input name="firstName" id="firstName" type="text" placeholder="John" required>
+			<label for="lastName">Last name</label>
+			<input name="lastName" id="lastName" type="text" placeholder="Smith" required>
+		</div>
+		<div>
+
+				<label for="male">Male </label>
+				<input name="gentle" id="male" type="radio" value="MALE" required>
+				<label for="female">Female </label>
+				<input name="gentle" id="female" type="radio" value="FEMALE" required>
+				<label for="other">Other </label>
+				<input name="gentle" id="other" type="radio" value="OTHER" required>
+
+		</div>
+		<div>
+			<label for="email">Email </label>
+			<input type="email" id="email" placeholder="example@email.com" required>
+			<label for="password">Password </label>
+			<input type="password" id="password" required title="5 to 10 characters required" pattern=".{5,10}">
+		</div>
+		<div>
+			<label>
+				Birthday
+				<select>
+					<option>Month</option>
+					<option>Jan</option>
+					<option>Feb</option>
+					<option>Mar</option>
+				</select>
+				<select>
+					<option>Day</option>
+					<option>2</option>
+					<option>11</option>
+					<option>12</option>
+				</select>
+				<select>
+					<option>Year</option>
+					<option>2002</option>
+					<option>2005</option>
+					<option>2009</option>
+				</select>
+			</label>
+		</div>
+		<div>
+			<label for="agree">I agree! </label>
+			<input id="agree" type="checkbox" name="agree">
+		</div>
+
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>

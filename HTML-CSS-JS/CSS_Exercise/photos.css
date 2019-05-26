@@ -1,0 +1,27 @@
+div {
+	width: 100px;
+	float: left;
+}
+
+#one {
+	background-color: red;
+
+}
+
+#two {
+	background-color: purple;
+}
+
+img {
+	width: 30%;
+	float: left;
+	margin: 1% 1%;
+}
+
+h1 {
+	font-family: Ubuntu;
+	margin-left: 1%;
+	border-bottom: 2px gray solid;
+	width: 300px;
+	padding-bottom: 10px;
+}
